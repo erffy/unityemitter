@@ -1,0 +1,12 @@
+{
+  "name": "echoemitter",
+  "version": "1.0.0",
+  "description": "Faster, Advanced and Tiny event emitter.",
+  "main": "src/index.js",
+  "license": "Apache-2.0",
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}
