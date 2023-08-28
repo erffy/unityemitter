@@ -223,7 +223,7 @@ declare module 'unityemitter' {
      * called multiple times to remove each instance.
      *
      * Once an event is emitted, all listeners attached to it at the
-     * time of emitting are called in order. This implies that any `off()` or `removeAllListeners()` calls _after_ emitting and _before_ the last listener finishes execution
+     * time of emitting are called in order. This implies that any `off()` or `removeListener()` calls _after_ emitting and _before_ the last listener finishes execution
      * will not remove them from `emit()` in progress. Subsequent events behave as expected.
      *
      * ```js
