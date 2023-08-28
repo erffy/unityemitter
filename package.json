@@ -16,6 +16,11 @@
   "devDependencies": {
     "@types/node": "latest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erffy/unityemitter"
+  },
+  "author": "erffy",
   "private": false,
   "publishConfig": {
     "access": "public",
