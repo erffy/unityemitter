@@ -228,12 +228,12 @@ declare module 'unityemitter' {
      *
      * ```js
      * import UnityEmitter from 'unityemitter';
-     * class MyEmitter extends EventEmitter {}
+     * class MyEmitter extends UnityEmitter {}
      * const myEmitter = new MyEmitter();
-     * 
+     *
      * const callbackA = () => {
      *   console.log('A');
-     *   myEmitter.removeListener('event', callbackB);
+     *   myEmitter.off('event', callbackB);
      * };
      *
      * const callbackB = () => {
@@ -278,7 +278,7 @@ declare module 'unityemitter' {
      *
      * ee.on('ping', pong);
      * ee.once('ping', pong);
-     * ee.removeListener('ping', pong);
+     * ee.off('ping', pong);
      *
      * ee.emit('ping');
      * ee.emit('ping');
