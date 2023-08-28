@@ -1,0 +1,5 @@
+*.lock
+*.log
+src
+tests
+node_modules

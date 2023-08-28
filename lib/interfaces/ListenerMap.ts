@@ -1,5 +1,5 @@
-export interface ListenerMap {
-  [key: string]: (...args: Array<any>) => any;
-};
+import { ListenerCallback } from './ListenerCallback';
 
-// gereksiz dosya kargaşası olur olmaz bir şey ben öyle yapıyorum db de
+export type ListenerMap = {
+  [key: string]: ListenerCallback;
+};

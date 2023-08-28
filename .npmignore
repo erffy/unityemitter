@@ -1,0 +1,8 @@
+lib/emitter
+lib/*.ts
+.github
+.vscode
+.vs
+.npmrc
+.prettierrc
+.gitignore

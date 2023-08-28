@@ -1,9 +1,21 @@
 {
-  "name": "echoemitter",
+  "name": "unityemitter",
   "version": "1.0.0",
   "description": "Faster, Advanced and Tiny event emitter.",
   "main": "src/index.js",
+  "types": "global.d.ts",
+  "exports": {
+    "default": "./src/index.js",
+    "types": "./global.d.ts"
+  },
+  "scripts": {
+    "start": "node src/index",
+    "build": "rm -rf src && tsc && prettier --write ./src"
+  },
   "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "latest"
+  },
   "private": false,
   "publishConfig": {
     "access": "public",

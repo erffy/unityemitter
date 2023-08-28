@@ -1,0 +1,1 @@
+export type ListenerCallback = (...args: any[]) => any;
